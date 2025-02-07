@@ -1,6 +1,6 @@
 // Copyright 2022 beekeeb
 // SPDX-License-Identifier: GPL-2.0-or-later
-
+#include "print.h"
 #include QMK_KEYBOARD_H
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -25,3 +25,24 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                             KC_LGUI, KC_BSPC, KC_SPC,           KC_SPC,  KC_ENT,  KC_RALT
     )
 };
+
+layer_state_t layer_state_set_user(layer_state_t state) {
+    switch (get_highest_layer(state)) {
+    case _RAISE:
+        print("_RAISE");
+        break;
+    case _LOWER:
+        print("_LOWER");
+        break;
+    case _PLOVER:
+        print("_PLOVER");
+        break;
+    case _ADJUST:
+        print("_ADJUST");
+        break;
+    default: //  for any other layers, or the default layer
+        print("_OTHER");
+        break;
+    }
+  return state;
+}
