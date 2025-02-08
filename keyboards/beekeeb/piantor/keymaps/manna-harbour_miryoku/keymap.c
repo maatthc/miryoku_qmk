@@ -8,3 +8,31 @@ const uint16_t PROGMEM restore_window_size[] = {RWIN(KC_LEFT), RWIN(KC_RIGHT), C
 combo_t key_combos[] = {
     COMBO(restore_window_size, RWIN(KC_UP)),
 };
+
+// Send F13-F19 when switching layers so the companion app can switch to the corresponding layout image
+layer_state_t layer_state_set_user(layer_state_t state) {
+    switch (get_highest_layer(state)) {
+        case 0:
+        // send f13
+        SEND_STRING(SS_TAP(X_F13));
+        break;
+        case 4:
+        SEND_STRING(SS_TAP(X_F14));
+        break;
+        case 5:
+        SEND_STRING(SS_TAP(X_F15));
+        break;
+        case 6:
+        SEND_STRING(SS_TAP(X_F16));
+        break;
+        case 7:
+        SEND_STRING(SS_TAP(X_F17));
+        break;
+        case 8:
+        SEND_STRING(SS_TAP(X_F18));
+        break;
+        case 9:
+        SEND_STRING(SS_TAP(X_F19));
+        break;
+    default: //  for any other layers
+}
