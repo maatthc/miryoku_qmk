@@ -5,7 +5,7 @@
 
 #pragma once
 
-#define XYT KC_ESC
+#define TAPPING_TERM 500
 
 #define MIRYOKU_MAPPING( \
       K00,  K01,  K02,  K03,  K04,         K05,  K06,  K07,  K08,  K09, \
