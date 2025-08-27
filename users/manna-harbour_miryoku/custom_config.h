@@ -5,12 +5,14 @@
 
 #pragma once
 
-#define TAPPING_TERM 500
+#define TAPPING_TERM 200
+#define DYNAMIC_TAPPING_TERM_INCREMENT 50
+
 // Do not Auto Shift special keys -_, =+, [{, ]}, ;:, '", ,<, .>, and /?
-// #define NO_AUTO_SHIFT_SPECIAL
+//#define NO_AUTO_SHIFT_SPECIAL
 
 // Do not Auto Shift numeric keys, zero through nine.
-// #define NO_AUTO_SHIFT_NUMERIC
+//#define NO_AUTO_SHIFT_NUMERIC
 
 #define MIRYOKU_MAPPING( \
       K00,  K01,  K02,  K03,  K04,         K05,  K06,  K07,  K08,  K09, \
@@ -30,3 +32,11 @@ KC_Q,              KC_W,              KC_E,              KC_R,              KC_T
 KC_A,              LALT_T(KC_S),      LCTL_T(KC_D),      LSFT_T(KC_F),      KC_G,              KC_H,              LSFT_T(KC_J),      LCTL_T(KC_K),      LALT_T(KC_L),      KC_QUOT,   \
 KC_Z,              KC_X,              KC_C,              KC_V,              KC_B,              KC_N,              KC_M,              KC_COMMA,          KC_DOT,            KC_SLSH,\
 U_NP,              U_NP,              LT(U_MEDIA,KC_ESC),LT(U_NAV,KC_SPC),  LT(U_MOUSE,KC_TAB),LT(U_SYM,KC_ENT),  LT(U_NUM,KC_BSPC), LT(U_FUN,KC_DEL),  U_NP,              U_NP
+
+
+// Added Dynamic Tapping Term : https://docs.qmk.fm/tap_hold#dynamic-tapping-term
+#define MIRYOKU_LAYER_MEDIA \
+TD(U_TD_BOOT),     TD(U_TD_U_TAP),    TD(U_TD_U_EXTRA),  TD(U_TD_U_BASE),   DT_PRNT,           RGB_MOD,           RGB_HUI,           RGB_SAI,           RGB_VAI,           RGB_TOG,           \
+KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           DT_UP,             KC_MPRV,           KC_VOLD,           KC_VOLU,           KC_MNXT,           U_NU,              \
+U_NA,              KC_ALGR,           TD(U_TD_U_FUN),    TD(U_TD_U_MEDIA),  DT_DOWN,           U_NU,              U_NU,              U_NU,              U_NU,              OU_AUTO,           \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC_MSTP,           KC_MPLY,           KC_MUTE,           U_NP,              U_NP

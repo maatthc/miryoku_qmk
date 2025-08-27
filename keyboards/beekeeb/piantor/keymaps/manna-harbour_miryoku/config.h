@@ -6,6 +6,7 @@
 #pragma once
 
 #define COMBO_COUNT 1
+// This is the number of combos you have defined in your keymap
 
 #define XXX KC_NO
 
