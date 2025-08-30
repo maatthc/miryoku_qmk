@@ -34,6 +34,9 @@ https://github.com/manna-harbour/miryoku_qmk/tree/miryoku/users/manna-harbour_mi
 - keyboards/beekeeb/piantor/keymaps/manna-harbour_miryoku/config.h
 - keyboards/beekeeb/piantor/keymaps/manna-harbour_miryoku/keymap.c
 
+### Need to use the latest version of QMK?
+Read how here: https://github.com/manna-harbour/miryoku/discussions/287
+
 ### Test
 
 https://config.qmk.fm/#/test
