@@ -42,17 +42,32 @@ https://github.com/manna-harbour/miryoku_qmk/tree/miryoku/users/manna-harbour_mi
 ### Need to use the latest version of QMK?
 Read how here: https://github.com/manna-harbour/miryoku/discussions/287
 
-### Test
+### Typing Test
 
 https://config.qmk.fm/#/test
 
 ### Symbols that correspond to keycodes available in QMK.
 https://docs.qmk.fm/keycodes
 
-### Generated Layout/Layers images
+## Generated Layout/Layers images
 
 Json files and images at: ./data/layers/
 
-#### Make your own
+- ![Base](./data/layers/miryoku-kle-base.png)
+
+- ![Media](./data/layers/miryoku-kle-media.png)
+
+- ![Nav](./data/layers/miryoku-kle-nav.png)
+
+- ![Mouse](./data/layers/miryoku-kle-mouse.png)
+
+- ![Symbols](./data/layers/miryoku-kle-sym.png)
+
+- ![Numbers](./data/layers/miryoku-kle-num.png)
+
+- ![Fun](./data/layers/miryoku-kle-fun.png)
+
+
+### Make your own
 
 Make your changes to the related https://github.com/manna-harbour/miryoku/tree/master/data/layers/*.json, and feed it to http://www.keyboard-layout-editor.com, using the "Upload JSON" button in the "Raw data" tab. 
