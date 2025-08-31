@@ -7,6 +7,11 @@
 https://github.com/beekeeb/piantor
 https://github.com/qmk/qmk_firmware/tree/master/keyboards/beekeeb/piantor
 
+## Keyboard Layers App companion
+A simple python script to display the selected layer layout on screen.
+
+https://github.com/maatthc/miryoku_qmk_app
+
 ## Compile and Flash
 
 ### Install QMK
