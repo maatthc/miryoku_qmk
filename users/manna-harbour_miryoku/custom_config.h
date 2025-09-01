@@ -36,7 +36,7 @@ U_NP,              U_NP,              LT(U_MEDIA,KC_ESC),LT(U_NAV,KC_BSPC),  LT(
 
 // Added Dynamic Tapping Term : https://docs.qmk.fm/tap_hold#dynamic-tapping-term
 #define MIRYOKU_LAYER_MEDIA \
-TD(U_TD_BOOT),     TD(U_TD_U_TAP),    TD(U_TD_U_EXTRA),  TD(U_TD_U_BASE),   DT_PRNT,           RGB_MOD,           RGB_HUI,           RGB_SAI,           RGB_VAI,           RGB_TOG,           \
-KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           DT_UP,             KC_MPRV,           KC_VOLD,           KC_VOLU,           KC_MNXT,           U_NU,              \
-U_NA,              KC_ALGR,           TD(U_TD_U_FUN),    TD(U_TD_U_MEDIA),  DT_DOWN,           U_NU,              U_NU,              U_NU,              U_NU,              OU_AUTO,           \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC_MSTP,           KC_MPLY,           KC_MUTE,           U_NP,              U_NP
+U_NA,     U_NA,     U_NA,     U_NA,     DT_PRNT,           QK_BACKLIGHT_STEP, KC_BRID,           KC_BRIU,           U_NU,              U_NU,           \
+KC_LGUI,  KC_LALT,  KC_LCTL,  KC_LSFT,  DT_UP,             KC_MPRV,           KC_VOLD,           KC_VOLU,           KC_MNXT,           U_NU,           \
+U_NA,     U_NA,     U_NA,     U_NA,     DT_DOWN,           U_NU,              U_NU,              U_NU,              U_NU,              U_NU,           \
+U_NP,     U_NP,     U_NA,     U_NA,     U_NA,              KC_MSTP,           KC_MPLY,           KC_MUTE,           U_NP,              U_NP
