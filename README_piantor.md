@@ -8,7 +8,10 @@ https://github.com/beekeeb/piantor
 https://github.com/qmk/qmk_firmware/tree/master/keyboards/beekeeb/piantor
 
 ## Keyboard Layers App companion
-A simple python script to display the selected layer layout on screen.
+
+Display the selected keyboard layer layout on screen to assist your to memorize the key's locations.
+
+It allows you to display the layout in a remote screen, so you can use a tablet or similar to save space on your main screen.
 
 https://github.com/maatthc/miryoku_qmk_app
 
