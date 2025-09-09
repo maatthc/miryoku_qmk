@@ -1,3 +1,7 @@
+# !!! Deprecated !!!
+
+Currently maintened at [https://github.com/maatthc/qmk_userspace](https://github.com/maatthc/qmk_userspace)
+
 #   My Piantor Miryoku layout
 
 - Don’t connect or disconnect the TRRS cable when the keyboard is powered. Always disconnect the USB cable first.

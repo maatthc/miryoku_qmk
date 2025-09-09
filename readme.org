@@ -3,7 +3,7 @@
 
 * !!! Deprecated !!!
 
-Currently maintened at [https://github.com/maatthc/qmk_userspace](https://github.com/maatthc/qmk_userspace)
+Currently maintened at [[https://github.com/maatthc/qmk_userspace]]
 
 * Miryoku QMK Development Branch Repository [[https://raw.githubusercontent.com/manna-harbour/miryoku/master/data/logos/miryoku-roa-32.png]]
 
