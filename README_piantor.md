@@ -35,7 +35,7 @@ qmk info -kb beekeeb/piantor -km manna-harbour_miryoku
 
 ## Configuration
 
-https://github.com/manna-harbour/miryoku_qmk/tree/miryoku/users/manna-harbour_miryoku#userspace
+Details: ./users/manna-harbour_miryoku#userspace
 
 - users/manna-harbour_miryoku/custom_config.h
 - users/manna-harbour_miryoku/custom_rules.mk
